@@ -1,0 +1,14 @@
+.nav-top-bar {
+	height: 7rem;
+	display: flex;
+	width: 100%;
+	// background-color: #1a1d1e;
+	padding: 1rem;
+	position: fixed;
+	box-shadow: 1x 1px 1px 1px #ddd;
+	backdrop-filter: blur(20px);
+	border-style: solid;
+	border-color: rgba(194, 224, 255, 0.08);
+	border-width: 0px 0px thin;
+	background-color: #212121;
+}

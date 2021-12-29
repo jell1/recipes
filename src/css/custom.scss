@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Condensed&family=Roboto+Mono:wght@300&display=swap");
+
+// overwrite them variables
+
+// change the theme
+
+// $primary: #ffe598;
+$dark: #0056da;
+$primary: #5498ff;
+
+body {
+	font-family: "Inter" !important;
+}
+
+.form-control:focus {
+	border: 2px #2684ff solid !important;
+	box-shadow: none !important;
+	background-color: #fff !important;
+}
+
+input:focus {
+	border: 2px #2684ff solid !important;
+	box-shadow: none !important;
+	background-color: #fff !important;
+}
+
+select:focus {
+	border: 2px #2684ff solid !important;
+	box-shadow: none !important;
+	background-color: #fff !important;
+}
+
+.form-control-sm {
+	padding: 0.5rem 0.5rem !important;
+	font-size: 0.8rem !important;
+	border-radius: 0.2rem !important;
+}
+
+[class="custom-control-input"]:checked
+	~ [class="custom-control-label"]::before {
+	background-color: none; //Example Code
+}
+
+.color-dark {
+	color: $dark;
+}
+
+.modal-header {
+	padding: 9px 15px;
+	border-bottom: 1px solid #eee;
+
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.model-content {
+	// font-size: 1.1rem;
+}
+
+.modal-body,
+.modal-footer {
+	// background-color: #2d2d2d;
+}
+
+.modal-body {
+	border-top: none;
+	font-size: 13px;
+	height: 100%;
+	color: black;
+}
+
+.modal-header {
+	border-bottom: #5d5d5d;
+	background-color: #fff;
+	font-size: 1.15rem;
+}
+
+.modal-footer {
+	border-top: none !important;
+}
+
+.color-1 {
+	color: #ffe598;
+}
+
+.color-2 {
+	color: #fcbe18;
+}
+
+.bg-1 {
+	background: #212121;
+}
+
+.bg-2 {
+	background: #2d2d2d;
+}
+
+// import bootstrap sytles at bottom!
+@import "~bootstrap/scss/bootstrap";

@@ -27,7 +27,7 @@ export async function createMeasurementOption(label, value) {
 		},
 		url: "http://143.198.146.144/codeigniter/index.php/recipes/MeasurementOptions",
 		method: "post",
-		formData: {
+		data: {
 			Label: label,
 			Value: value,
 		},
@@ -43,7 +43,7 @@ export async function createMeasurementOption(label, value) {
 	// </Directory>
 
 	//TRAVERSY
-	// 	RewriteEngine on
+	// RewriteEngine on
 	// RewriteCond $1 !^(index\.php|assets|images|js|css|uploads|favicon.png)
 	// RewriteCond %(REQUEST_FILENAME) !-f
 	// RewriteCond %(REQUEST_FILENAME) !-d

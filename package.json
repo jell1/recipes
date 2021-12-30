@@ -2,7 +2,7 @@
 	"name": "dashboard",
 	"version": "0.1.0",
 	"private": true,
-	"proxy": "http://localhost:3000/",
+	"proxy": "http://143.198.146.144/codeigniter/index.php/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.1",
 		"@testing-library/react": "^12.1.2",
